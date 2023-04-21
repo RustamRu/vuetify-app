@@ -1,0 +1,36 @@
+:root {
+  // colors
+  --brown: hsl(14, 13%, 19%); // #382E2B, #403432
+  --brown-2: hsl(12, 29%, 28%); // #5B3A32
+  --brown-1: hsl(12, 9%, 43%); // #776763
+  --light-brown: hsl(0, 14%, 96%); // #F6F3F3
+  --black: hsl(0, 0%, 19%); // #343030
+  --gray-5: hsl(0, 0%, 33%); // #555555
+  --gray-4: hsl(0, 0%, 62%); // #9F9F9F
+  --gray-3: hsl(0, 0%, 71%); // #B5B5B5, #C1B4B1
+  --gray-2: hsl(0, 0%, 88%); // #E1E1E1
+  --gray-1: hsl(0, 0%, 92%); // #ECEAEA
+  --white: hsl(216, 29%, 97%); // #F4F6F9, #FFFFFF
+
+  --primary-color: var(--black);
+  --accent-color: var(--brown);
+  /* typography */
+  --text-color: var(--primary-color);
+  /* buttons */
+  --btn-bg-color: var(--accent-color);
+  --btn-alt-bg-color: var(--brown-2);
+  --btn-color: var(--white);
+  --btn-hover-bg-color: var(--brown-1);
+  --btn-disabled-bg-color: var(--gray-3);
+  /* search input */
+  --input-border-color: var(--gray-2);
+  --input-hover-border-color: var(--gray-3);
+  /* layout */
+  --body-bg-color: var(--light-brown);
+  /* nav */
+  --nav-color: var(--black);
+  /* header */
+  --header-border-color: var(--gray-2);
+  /* footer */
+  --footer-bg-color: var(--gray-1);
+}

@@ -1,0 +1,15 @@
+$font-faces: // weight url
+  300 "~@/assets/fonts/Merriweather-Light.ttf",
+  400 "~@/assets/fonts/Merriweather-Regular.ttf",
+  700 "~@/assets/fonts/Merriweather-Bold.ttf";
+
+@each $weight,
+$url in $font-faces {
+  @font-face {
+    font-family: "Merriweather";
+    font-weight: $weight;
+    font-style: normal;
+    font-display: auto;
+    src: url(#{$url});
+  }
+}
