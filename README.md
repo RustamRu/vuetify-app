@@ -1,16 +1,16 @@
 # vuetify-app
 
-## Project setup
+## Настройка проекта
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск локального сервера
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Сборка образа
 ```
 npm run build
 ```
